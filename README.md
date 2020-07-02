@@ -28,4 +28,13 @@ for the tests to run successfully
      
      - The whole test run 34 seconds 
      for a linear ramp of 1000 users over 25 seconds.
-     
+ 
+ This only provides an insight into backend performance 
+ and completely ignores any frontend performance issues. 
+ 
+ ## UI Tests
+ 
+ - https://chromedriver.chromium.org/security-considerations
+ - PageObject model
+ - Explicits waits are always better.
+ -  https://www.selenium.dev/documentation/en/webdriver/waits/
