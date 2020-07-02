@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'com.github.sherter.google-java-format' version '0.8'
+    id "com.github.lkishalmi.gatling" version "3.3.4"
 }
 
 group 'org.example'
