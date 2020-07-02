@@ -11,6 +11,7 @@ for the tests to run successfully
 ## Performance tests
 - Used Intellij with the Scala plugin
 - Used gradle for the build and run
+- Folder layout has to be followed, for the plugin to work.
 - to run use `./gradlew gatlingRun` 
 - Ensure Simulation Class Name anf File Name Match
 - After successful run , you can find the reports at  
