@@ -24,3 +24,8 @@ hs_err_pid*
 
 # IDEA files
 .idea/*
+.gradle/**/*
+build/*
+
+# env files
+env.json
