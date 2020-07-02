@@ -1,6 +1,7 @@
 package tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import client.AirVisualAPIClient;
 import kong.unirest.HttpResponse;
@@ -67,6 +68,6 @@ public class AirVisualAPITests {
     HttpResponse<JsonNode> response = client.getSpecifiedCityData("144.97", "-37.8073959");
     assertEquals(200, response.getStatus());
     Object temperature = handler.getDataAtPath(response, "$['data']['current']['weather']['tp']");
-    assertEquals("9", temperature.toString());
+    assertFalse(temperature.toString().isEmpty());
   }
 }
